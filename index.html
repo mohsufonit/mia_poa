@@ -243,9 +243,21 @@ header.hd{padding:44px 0 36px}
 .applink b{display:block;font-size:20px;margin:6px 0 4px}.applink em{font-style:normal;font-size:13.5px;color:var(--muted)}
 a.ref{display:inline-block;font-family:var(--mono);font-size:9.5px;font-weight:500;line-height:1;color:var(--lilac);background:rgba(139,107,247,.14);border:1px solid rgba(139,107,247,.35);border-radius:4px;padding:2px 4px;margin-left:4px;vertical-align:2px;text-decoration:none;font-style:normal;letter-spacing:0}
 a.ref:hover{background:rgba(139,107,247,.3)}
+.tlink{display:inline-block;margin-top:8px;color:var(--lilac);font-weight:600;text-decoration:none;border-bottom:1px solid rgba(180,156,251,.4)}.tlink:hover{border-bottom-color:var(--lilac)}
+ul.pend li b{color:var(--text);font-weight:600}
+.pat{display:inline-block;font-style:normal;font-family:var(--mono);font-size:9.5px;letter-spacing:.08em;text-transform:uppercase;padding:2px 7px;border-radius:999px;background:rgba(139,107,247,.18);color:var(--lilac);margin-bottom:8px}
+.pat.pp{background:rgba(52,211,153,.14);color:var(--green)}
+.qgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+@media (max-width:760px){.qgrid{grid-template-columns:1fr}}
+.qb{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:18px 20px;min-width:0;display:flex;flex-direction:column}
+.qbh{display:flex;flex-direction:column;align-items:flex-start;gap:2px;margin-bottom:6px}.qbh b{font-size:17px}
+.qb ol{margin:6px 0 12px;padding-left:20px;color:var(--text);font-size:14px;line-height:1.75}
+.qbf{margin-top:auto;font-size:12.5px;color:var(--muted);border-top:1px solid var(--line);padding-top:10px}
+.later{display:block;font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--amber);font-weight:500;margin-bottom:6px}
 .divider{margin:46px 0 0;padding:22px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
 .divider span{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--purple)}
 .divider p{margin:6px 0 0}
+.money .mn b{font-family:var(--sans);font-weight:700;font-size:26px;letter-spacing:-.01em}
 </style>
 <style>
 .fun{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:8px}
@@ -368,18 +380,18 @@ a.ref:hover{background:rgba(139,107,247,.3)}
   <div class="tb-title"><b>CRO and growth plan</b><span class="tb-sub">The next plan in motion</span></div>
   <div class="tb-date">October 2026</div>
 </div>
-<nav class="rnav" aria-label="Report sections"><div class="wrap rnav-in"><div class="rnav-items" id="rnavItems"><a href="#s1"><span>One page</span></a><a href="#s2"><span>Timeline</span></a><a href="#s3"><span>Where it leaks</span></a><a href="#s4"><span>Shoppers</span></a><a href="#s5"><span>Fix</span></a><a href="#s6"><span>Grow</span></a><a href="#s7"><span>Coins</span></a><a href="#s8"><span>Diamonds</span></a><a href="#s9"><span>Plan</span></a></div><div class="rnav-meta"><b id="rnavPct">0%</b> read<span id="rnavLeft"></span></div></div><div class="rnav-bar"><i id="rnavFill"></i></div></nav>
+<nav class="rnav" aria-label="Report sections"><div class="wrap rnav-in"><div class="rnav-items" id="rnavItems"><a href="#s1"><span>One page</span></a><a href="#s2"><span>Timeline</span></a><a href="#s3"><span>Where it leaks</span></a><a href="#s4"><span>Shoppers</span></a><a href="#s5"><span>This quarter</span></a><a href="#s6"><span>Grow</span></a><a href="#s7"><span>Coins</span></a><a href="#s8"><span>Diamonds</span></a><a href="#s9"><span>Plan</span></a></div><div class="rnav-meta"><b id="rnavPct">0%</b> read<span id="rnavLeft"></span></div></div><div class="rnav-bar"><i id="rnavFill"></i></div></nav>
 </div>
 
 <header class="hd"><div class="wrap">
   <p class="eyebrow">Mia by Tanishq &middot; CRO and growth plan &middot; October 2026</p>
   <h1>Shoppers choose the piece. The website <em>loses them at the bag and at payment</em>.</h1>
-  <p class="lead">The next plan in motion for Mia: the four problems that cost Mia the most online, and what we are doing about each. Based on Mia's website data for the four weeks to 15 October 2026.</p>
+  <p class="lead">This quarter we work on two things: <b>the cart</b> (bag, checkout and payment) and <b>product page experiments</b>. Below is what costs Mia the most in each, and what we are doing about it. Mia's website data, four weeks to 15 October 2026.</p>
   <div class="pagrid">
-    <div class="pa"><div class="pap"><b class="r">64%</b><span>of logged-out shoppers never get past "Login to Proceed" in the bag</span><a class="ref" href="https://claude.ai/artifact/KgvtUJWLeaXUtJN4DR4LsP#r1" target="_blank" rel="noopener">R1</a></div><div class="paa"><em>What we are doing</em>Let shoppers check out with just a mobile number, show only coupons that work for them, and show delivery date and returns next to the button</div></div>
-    <div class="pa"><div class="pap"><b class="r">51.7%</b><span>of shoppers who reach payment do not pay; a ₹1.82 lakh order saw cards and netbanking only</span><a class="ref" href="https://claude.ai/artifact/KgvtUJWLeaXUtJN4DR4LsP#r3" target="_blank" rel="noopener">R3</a><a class="ref" href="https://claude.ai/artifact/KgvtUJWLeaXUtJN4DR4LsP#r4" target="_blank" rel="noopener">R4</a></div><div class="paa"><em>What we are doing</em>Add UPI and EMI, and show the order, its delivery date and returns on the payment page</div></div>
-    <div class="pa"><div class="pap"><b class="a">3 of 57,249</b><span>gold-rate page visitors bought; its coin tiles say "Available in store"</span><a class="ref" href="https://claude.ai/artifact/KgvtUJWLeaXUtJN4DR4LsP#r12" target="_blank" rel="noopener">R12</a><a class="ref" href="https://claude.ai/artifact/KgvtUJWLeaXUtJN4DR4LsP#r13" target="_blank" rel="noopener">R13</a></div><div class="paa"><em>What we are doing</em>Let visitors buy coins at today's rate, right from the gold-rate page</div></div>
-    <div class="pa"><div class="pap"><b class="a">5,642</b><span>shoppers asked a store to call them about a piece, six for every online buyer</span><a class="ref" href="https://claude.ai/artifact/KgvtUJWLeaXUtJN4DR4LsP#r15" target="_blank" rel="noopener">R15</a></div><div class="paa"><em>What we are doing</em>Show which nearby store has the piece, let shoppers reserve it to try, and track which requests become store sales</div></div>
+    <div class="pa"><div class="pap"><i class="pat">Cart</i><b class="r">64%</b><span>of logged-out shoppers never get past "Login to Proceed" in the bag</span><a class="ref" href="https://claude.ai/artifact/KgvtUJWLeaXUtJN4DR4LsP#r1" target="_blank" rel="noopener">R1</a></div><div class="paa"><em>What we are doing</em>Guest checkout with just a mobile number; the OTP only confirms the order</div></div>
+    <div class="pa"><div class="pap"><i class="pat">Cart</i><b class="r">3,477</b><span>shoppers had MIA500 rejected in the bag, against 1,089 accepted; the bag also credits it with ₹11,287 of savings</span><a class="ref" href="https://claude.ai/artifact/KgvtUJWLeaXUtJN4DR4LsP#r5" target="_blank" rel="noopener">R5</a><a class="ref" href="https://claude.ai/artifact/KgvtUJWLeaXUtJN4DR4LsP#r6" target="_blank" rel="noopener">R6</a></div><div class="paa"><em>What we are doing</em>Show only coupons each shopper can use, say why one is rejected, and name each saving correctly</div></div>
+    <div class="pa"><div class="pap"><i class="pat">Cart</i><b class="r">51.7%</b><span>of shoppers who reach payment do not pay; a ₹1.82 lakh order saw cards and netbanking only</span><a class="ref" href="https://claude.ai/artifact/KgvtUJWLeaXUtJN4DR4LsP#r3" target="_blank" rel="noopener">R3</a><a class="ref" href="https://claude.ai/artifact/KgvtUJWLeaXUtJN4DR4LsP#r4" target="_blank" rel="noopener">R4</a></div><div class="paa"><em>What we are doing</em>UPI, EMI on the gemstone value, and the order, delivery date and returns shown on the payment page</div></div>
+    <div class="pa"><div class="pap"><i class="pat pp">Product page</i><b class="a">6.0%</b><span>of diamond pieces added to bag on phones reach checkout, against 22.5% on desktop</span><a class="ref" href="https://claude.ai/artifact/KgvtUJWLeaXUtJN4DR4LsP#r17" target="_blank" rel="noopener">R17</a></div><div class="paa"><em>What we are doing</em>Experiments on the new product page: reviews with photos and videos, product videos, and A+ content</div></div>
   </div>
 </div></header>
 <div class="wrap">
@@ -390,22 +402,33 @@ a.ref:hover{background:rgba(139,107,247,.3)}
     <p>Mia's website only, four weeks to 15 October 2026.</p>
   </div></div>
 
-  <h4 class="grp" style="margin-top:4px">Where we start, and how we proceed</h4>
+  <h4 class="grp" style="margin-top:4px">This quarter</h4>
+  <div class="qgrid">
+    <div class="qb"><div class="qbh"><i class="pat">Cart</i><b>Bag, checkout and payment</b></div><ol>
+      <li>Guest checkout with a mobile number</li><li>Only coupons the shopper can use, with a reason when one is rejected</li><li>Each saving named correctly in the bag</li><li>Delivery date shown without asking for a pincode</li><li>Returns, insured delivery and certificate by the button</li><li>Stock checked when the bag opens</li><li>Item and total first on mobile</li><li>UPI and EMI at payment, with an order summary</li></ol>
+      <div class="qbf">Measured by the bag-to-checkout rate (18.4% today, 40% benchmark) and payment-to-paid rate (48.3%).<a class="ref" href="https://claude.ai/artifact/KgvtUJWLeaXUtJN4DR4LsP#r2" target="_blank" rel="noopener">R2</a></div></div>
+    <div class="qb"><div class="qbh"><i class="pat pp">Product page</i><b>Experiments on the new page</b></div><ol>
+      <li>Reviews with photos and videos from real buyers</li><li>Product videos, made by Troopod</li><li>A+ content: a product-specific visual section, as built for FableRoom</li><li>HUID and certificate by the price</li><li>Stock at nearby stores, and reserve to try</li></ol>
+      <div class="qbf">One experiment at a time, each measured by the product page add-to-bag rate against a small group who don't see it.</div></div>
+  </div>
+  <p class="opline" style="margin-top:14px">Also in motion: the new product page going live, and the collection and gifting handover. Next: the homepage, then coins, stores and the purchase plan.</p>
+
+  <h4 class="grp">Where we start, and how we proceed</h4>
   <div class="tlstrip">
-    <div class="tls live"><b>1</b><span>Product page</span><em>Live; 5 components pending</em></div>
-    <div class="tls dev"><b>2</b><span>Collection and gifting</span><em>Designed; handover next</em></div>
-    <div class="tls next"><b>3</b><span>Bag, checkout, payment</span><em>Audited; design next</em></div>
-    <div class="tls plan"><b>4</b><span>Homepage</span><em>Audited</em></div>
-    <div class="tls plan"><b>5</b><span>Product page, round 2</span><em>Ideas ready</em></div>
+    <div class="tls live"><b>1</b><span>Product page</span><em>New version going live</em></div>
+    <div class="tls dev"><b>2</b><span>Collection and gifting</span><em>Approved; handover next</em></div>
+    <div class="tls next"><b>3</b><span>Bag, checkout, payment</span><em>This quarter</em></div>
+    <div class="tls next"><b>4</b><span>Product page experiments</span><em>This quarter</em></div>
+    <div class="tls plan"><b>5</b><span>Homepage</span><em>Next</em></div>
     <div class="tls plan"><b>6</b><span>Coins, stores, plan</span><em>Ideas ready</em></div>
   </div>
-  <div class="own"><span class="ot"><i></i>Troopod</span>audit, ideas, design, handover, and reading the results<span class="om"><i></i>Mia</span>development and go-live<span class="rule">One page at a time: each goes live and its results are measured before the next starts.</span></div>
+  <div class="own"><span class="ot"><i></i>Troopod</span>audit, ideas, design, handover, and reading the results<span class="om"><i></i>Mia</span>development and go-live<span class="rule">This quarter: the bag-to-checkout journey and product page experiments. Dates are set with Mia's team at the planning meeting early next week. One page at a time: each goes live and its results are measured before the next starts.</span></div>
 
   <h4 class="grp">What it is worth</h4>
   <div class="money">
     <div class="mn"><b>₹71 L a year</b><span>extra revenue for each 1-point rise in the bag-to-checkout rate (18.4% today)</span><a class="ref" href="https://claude.ai/artifact/KgvtUJWLeaXUtJN4DR4LsP#r36" target="_blank" rel="noopener">R36</a></div>
     <div class="mn"><b>₹77 L a year</b><span>the most two growth moves could add: making trust visible and simplifying offers</span><a class="ref" href="https://claude.ai/artifact/KgvtUJWLeaXUtJN4DR4LsP#r35" target="_blank" rel="noopener">R35</a></div>
-    <div class="mn"><b>₹83 L a year</b><span>for each 1% of store requests that ends in a store purchase</span><a class="ref" href="https://claude.ai/artifact/KgvtUJWLeaXUtJN4DR4LsP#r36" target="_blank" rel="noopener">R36</a></div>
+    <div class="mn"><b>₹27 L a year</b><span>extra revenue for each 1-point rise in the payment-to-paid rate (48.3% today)</span><a class="ref" href="https://claude.ai/artifact/KgvtUJWLeaXUtJN4DR4LsP#r36" target="_blank" rel="noopener">R36</a></div>
   </div>
   <div class="src">Estimates worked out from Mia's own numbers to show the size of each opportunity; not promises. Each figure has a reference marker (R1, R2…) that opens its source and how it was worked out.</div>
 </section>
@@ -413,61 +436,61 @@ a.ref:hover{background:rgba(139,107,247,.3)}
 <section class="s" id="s2">
   <div class="sec-head"><div class="sec-num">02</div><div>
     <h2>The timeline</h2>
-    <p>Every page goes through the same seven stages. Troopod owns audit, ideas, design and handover; Mia owns development and go-live; Troopod measures the result before the next page starts.</p>
+    <p>Every page goes through the same seven stages. Troopod owns audit, ideas, design and handover; Mia owns development and go-live; Troopod measures the result before the next page starts. This quarter's focus is the bag-to-checkout journey and product page experiments.</p>
   </div></div>
   <div class="stagekey"><span class="sk t">Audit</span><span class="sk t">Ideas</span><span class="sk t">Design</span><span class="sk t">Handover</span><span class="sk m">Development</span><span class="sk m">Live</span><span class="sk t">Results</span><em>Troopod <i class="kt"></i> Mia <i class="km"></i></em></div>
 
   <div class="tl">
-    <div class="tlc live"><div class="tlh"><span class="tln">1</span><div><h3>Product page</h3><span class="tlst live">Developed and live, early results good; 5 components pending with Mia</span></div></div>
-      <div class="pipe"><span class="d">Audit</span><span class="d">Ideas</span><span class="d">Design</span><span class="d">Handover</span><span class="d m">Development</span><span class="d m">Live</span><span class="w">Results</span></div>
+    <div class="tlc live"><div class="tlh"><span class="tln">1</span><div><h3>Product page</h3><span class="tlst live">New version built by Mia's team, going live before Diwali</span></div></div>
+      <div class="pipe"><span class="d">Audit</span><span class="d">Ideas</span><span class="d">Design</span><span class="d">Handover</span><span class="d m">Development</span><span class="w m">Live</span><span class="n">Results</span></div>
       <div class="tlg">
-        <div><dt>Components pending with Mia</dt><dd><ul class="pend"><li>"Why people love Mia" review section</li><li>Complete the set</li><li>Most gifted product rail</li><li>You may also like product rail</li><li>FAQ</li></ul></dd></div>
-        <div><dt>How we measure it</dt><dd>How many product page visitors add to bag, before and after, once all five components are live.</dd></div>
+        <div><dt>In the new version</dt><dd><ul class="pend"><li>"Why people love Mia" review section</li><li>Complete the set</li><li>Most gifted and You may also like product rails</li><li>FAQ</li><li>Store finder with appointments, old-gold exchange, gift options</li></ul><a class="tlink" href="https://piyush-titan.github.io/mia-pdp/" target="_blank" rel="noopener">See the new product page &rarr;</a></dd></div>
+        <div><dt>How we measure it</dt><dd>Product page add-to-bag rate, before and after. Going live during Diwali gives a strong first read.</dd></div>
         <div><dt>Why it matters</dt><dd>Shoppers need to trust the piece and understand the price; the product page is where that happens.</dd></div>
       </div></div>
 
-    <div class="tlc dev"><div class="tlh"><span class="tln">2</span><div><h3>Collection pages and the gifting page</h3><span class="tlst dev">Designed; Troopod handover next, then Mia development</span></div></div>
+    <div class="tlc dev"><div class="tlh"><span class="tln">2</span><div><h3>Collection pages and the gifting page</h3><span class="tlst dev">Designs approved by email; Troopod handover next, then Mia development</span></div></div>
       <div class="pipe"><span class="d">Audit</span><span class="d">Ideas</span><span class="d">Design</span><span class="w">Handover</span><span class="n m">Development</span><span class="n m">Live</span><span class="n">Results</span></div>
       <div class="tlg">
-        <div><dt>What ships</dt><dd>The collection and gifting designs already made.</dd></div>
+        <div><dt>What ships</dt><dd>The approved collection and gifting designs.</dd></div>
         <div><dt>How we measure it</dt><dd>How many visitors go from these pages to a product and add it to bag.</dd></div>
         <div><dt>Why it matters</dt><dd>More than half of all visits pass through collection pages, and gifting is a big reason people buy.</dd></div>
       </div></div>
 
-    <div class="tlc next"><div class="tlh"><span class="tln">3</span><div><h3>Bag, checkout and payment</h3><span class="tlst next">Audited in this report; design next</span></div></div>
+    <div class="tlc next"><div class="tlh"><span class="tln">3</span><div><h3>Bag, checkout and payment</h3><span class="tlst next">This quarter; audited, design next</span></div></div>
       <div class="pipe"><span class="d">Audit</span><span class="d">Ideas</span><span class="w">Design</span><span class="n">Handover</span><span class="n m">Development</span><span class="n m">Live</span><span class="n">Results</span></div>
       <div class="tlg">
-        <div><dt>What ships</dt><dd>Guest checkout; coupons the shopper can use; savings named correctly; proof and delivery date by the button; item first on mobile; payment methods and an order summary at payment.</dd></div>
-        <div><dt>How we measure it</dt><dd>Bag-to-checkout rate (18.4% today) and payment-to-paid rate (48.3%).<a class="ref" href="https://claude.ai/artifact/KgvtUJWLeaXUtJN4DR4LsP#r2" target="_blank" rel="noopener">R2</a> Each change is tested on its own; the guest checkout test takes about 3.5 weeks.</dd></div>
-        <div><dt>Why it matters</dt><dd>This is where the website loses the most shoppers.</dd></div>
+        <div><dt>First step</dt><dd>A meeting with Mia's development team early next week to agree what is possible:<ul class="pend"><li>Guest checkout with a mobile number</li><li>UPI on the payment page</li><li>EMI on the gemstone and diamond value, as Melorra offers (gold cannot be on EMI)</li></ul></dd></div>
+        <div><dt>What ships</dt><dd>Guest checkout; coupons the shopper can use; savings named correctly; delivery date shown without asking for a pincode; proof by the button; item first on mobile; UPI, EMI and an order summary at payment.</dd></div>
+        <div><dt>How we measure it</dt><dd>Bag-to-checkout rate (18.4% today, 40% benchmark) and payment-to-paid rate (48.3%). Each change tested on its own; the guest checkout test takes about 3.5 weeks.<a class="ref" href="https://claude.ai/artifact/KgvtUJWLeaXUtJN4DR4LsP#r2" target="_blank" rel="noopener">R2</a></dd></div>
       </div></div>
 
-    <div class="tlc plan"><div class="tlh"><span class="tln">4</span><div><h3>Homepage</h3><span class="tlst plan">Audited; follows the bag</span></div></div>
+    <div class="tlc next"><div class="tlh"><span class="tln">4</span><div><h3>Product page experiments</h3><span class="tlst next">This quarter; one experiment at a time on the new page</span></div></div>
       <div class="pipe"><span class="d">Audit</span><span class="d">Ideas</span><span class="n">Design</span><span class="n">Handover</span><span class="n m">Development</span><span class="n m">Live</span><span class="n">Results</span></div>
       <div class="tlg">
-        <div><dt>What ships</dt><dd>Search on the first screen; a hero for what visitors want; today's gold rate with coins; login pop-up only after a product view.</dd></div>
+        <div><dt>In order of priority</dt><dd><ul class="pend"><li><b>Reviews with photos and videos</b> from real buyers; store photos where buyer photos are thin</li><li><b>Product videos</b>, made and pushed by Troopod</li><li><b>A+ content</b>: a product-specific visual section, as we built for FableRoom</li><li>HUID and certificate by the price</li><li>Stock at nearby stores and reserve to try</li></ul></dd></div>
+        <div><dt>How we measure it</dt><dd>Each experiment on its own, against a small group of shoppers who don't see it yet.</dd></div>
+        <div><dt>Why it matters</dt><dd>The new page's reviews are text only, and it has no product videos or A+ content yet. On phones, only 6.0% of diamond pieces added to bag reach checkout (22.5% on desktop).<a class="ref" href="https://claude.ai/artifact/KgvtUJWLeaXUtJN4DR4LsP#r17" target="_blank" rel="noopener">R17</a></dd></div>
+      </div></div>
+
+    <div class="tlc plan"><div class="tlh"><span class="tln">5</span><div><h3>Homepage</h3><span class="tlst plan">Next, after the bag</span></div></div>
+      <div class="pipe"><span class="d">Audit</span><span class="d">Ideas</span><span class="n">Design</span><span class="n">Handover</span><span class="n m">Development</span><span class="n m">Live</span><span class="n">Results</span></div>
+      <div class="tlg">
+        <div><dt>What ships</dt><dd>Search on the first screen; tiles instead of swipe carousels on mobile, as BlueStone does; a "Shop the look" section; today's gold rate with coins; login pop-up only after a product view.</dd></div>
         <div><dt>How we measure it</dt><dd>Share of homepage visitors who open a product (37.4% today); about a week to measure.<a class="ref" href="https://claude.ai/artifact/KgvtUJWLeaXUtJN4DR4LsP#r11" target="_blank" rel="noopener">R11</a></dd></div>
-        <div><dt>Why it matters</dt><dd>Search is the first thing homepage visitors do.</dd></div>
+        <div><dt>Why it matters</dt><dd>Search is the first thing homepage visitors use.</dd></div>
       </div></div>
 
-    <div class="tlc plan"><div class="tlh"><span class="tln">5</span><div><h3>Product page, round 2: one component at a time</h3><span class="tlst plan">Ideas ready</span></div></div>
+    <div class="tlc plan"><div class="tlh"><span class="tln">6</span><div><h3>Coins, stores and the purchase plan</h3><span class="tlst plan">Ideas ready; tracking store requests starts now</span></div></div>
       <div class="pipe"><span class="d">Audit</span><span class="d">Ideas</span><span class="n">Design</span><span class="n">Handover</span><span class="n m">Development</span><span class="n m">Live</span><span class="n">Results</span></div>
       <div class="tlg">
-        <div><dt>What ships, in order</dt><dd>HUID and certificate at the price; rating under the name; returns and exchange row by the button; stock at nearby stores and reserve to try; video call; EMI and the purchase plan as ways to pay.</dd></div>
-        <div><dt>How we measure it</dt><dd>Each component measured on its own, against a small group of shoppers who don't see it yet.</dd></div>
-        <div><dt>Why it matters</dt><dd>On phones, only 6.0% of diamond pieces added to bag reach checkout (22.5% on desktop).<a class="ref" href="https://claude.ai/artifact/KgvtUJWLeaXUtJN4DR4LsP#r17" target="_blank" rel="noopener">R17</a></dd></div>
-      </div></div>
-
-    <div class="tlc plan"><div class="tlh"><span class="tln">6</span><div><h3>Coins, stores and the purchase plan</h3><span class="tlst plan">Ideas ready; data work starts now</span></div></div>
-      <div class="pipe"><span class="d">Audit</span><span class="d">Ideas</span><span class="n">Design</span><span class="n">Handover</span><span class="n m">Development</span><span class="n m">Live</span><span class="n">Results</span></div>
-      <div class="tlg">
-        <div><dt>What ships</dt><dd>A gold-rate page that sells coins at today's rate; store requests turned into reserve to try; the purchase plan online with UPI AutoPay.</dd></div>
+        <div><dt>What ships</dt><dd>A gold-rate page that sells coins at today's rate; store requests turned into reserve to try, with each request tracked to a store sale; the purchase plan online with UPI AutoPay.</dd></div>
         <div><dt>How we measure it</dt><dd>Coin sales from the gold-rate page; store sales from requests; online plan sign-ups.</dd></div>
         <div><dt>Why it matters</dt><dd>Advantages competitors cannot easily copy (sections 7 to 9).</dd></div>
       </div></div>
   </div>
   <div class="tlpar"><b>Running alongside</b><span>Tracking which store requests become sales</span><span>Offer calendar and coupon rules</span><span>Finding out why gold-rate page visits fell</span></div>
-  <div class="src">We won't test changes during the October to November festive peak, when results would be distorted. Where two parts of the plan describe the same change, its benefit is counted once.</div>
+  <div class="src">Where two parts of the plan describe the same change, its benefit is counted once.</div>
 </section>
 
 <section class="s" id="s3">
@@ -511,7 +534,7 @@ a.ref:hover{background:rgba(139,107,247,.3)}
   </div>
 </section>
 
-<div class="divider"><span>The detailed report</span><p>Everything behind the first three sections: who shops Mia online, the conversion fixes, the growth bets and the three edges.</p></div>
+<div class="divider"><span>The detailed report</span><p>Everything behind the first three sections: who shops Mia online, this quarter's cart plan and product page experiments, the growth bets, and three edges planned for after this quarter.</p></div>
 
 <section class="s" id="s4">
   <div class="sec-head"><div class="sec-num">04</div><div>
@@ -545,8 +568,8 @@ a.ref:hover{background:rgba(139,107,247,.3)}
 
 <section class="s" id="s5">
   <div class="sec-head"><div class="sec-num">05</div><div>
-    <h2>Fix: the conversion plan</h2>
-    <p>Troopod's conversion audit checked Mia's homepage, collection pages, product pages, bag, checkout and payment against 179 known problems for jewellery websites, using the live pages and a logged-in walkthrough. It found 51, and each was confirmed by a second reviewer.</p>
+    <h2>This quarter: the cart plan and product page experiments</h2>
+    <p>Troopod's conversion audit checked Mia's homepage, collection pages, product pages, bag, checkout and payment against 179 known problems for jewellery websites, using the live pages and a logged-in walkthrough. It found 51, and each was confirmed by a second reviewer. This quarter takes the twelve fixes for the bag, checkout and payment below, plus five experiments on the new product page.</p>
   </div></div>
   <div class="kstack">
     <div class="kcard hi"><div><div class="kn">What the audit concludes</div><div class="ks">Troopod conversion audit, 17 October 2026</div></div>
@@ -595,15 +618,18 @@ a.ref:hover{background:rgba(139,107,247,.3)}
       <tr><td class="on">11</td><td class="ot"><b>Address and billing</b>Members</td><td class="oe">A new address is not selected after it is added; 74% complete the address step.</td><td class="oc">Select the new address; billing same as delivery by default.</td><td class="om"><span class="risk"><b>Risk</b>Keep an option for a separate billing address for GST invoices.</span></td></tr>
       <tr><td class="on">12</td><td class="ot"><b>Points shown, gift card behind a link</b>Members</td><td class="oe">182 orders used points; 3 a gift card;<a class="ref" href="https://claude.ai/artifact/KgvtUJWLeaXUtJN4DR4LsP#r24" target="_blank" rel="noopener">R24</a> some shoppers typed gift card numbers into the coupon box.</td><td class="oc">Balance and value on the page, "Use points" off by default; "Have a gift card?" link.</td><td class="om"><span class="risk"><b>Risk</b>Gift card holders may miss the link.</span></td></tr>
     </tbody></table></div>
-  <h4 class="grp">Product pages and homepage</h4>
+    <h4 class="grp">Product page experiments, on the new page</h4>
+  <p class="intro">One at a time, in this order. Each is measured by the product page add-to-bag rate against a small group of shoppers who don't see it yet.</p>
   <div class="tscroll"><table class="otab">
-    <thead><tr><th>#</th><th>Fix and shopper</th><th>Evidence</th><th>Change</th><th>What could go wrong</th></tr></thead>
+    <thead><tr><th>#</th><th>Experiment</th><th>Why</th><th>What it involves</th><th>What could go wrong</th></tr></thead>
     <tbody>
-      <tr><td class="on">13</td><td class="ot"><b>Rating under the product name</b>Diamond shortlisters</td><td class="oe">Hero product pages carry 0 to 2 reviews, inside a closed accordion.</td><td class="oc">Stars and count under the name once a minimum count is reached; fed by the review request in section 6.</td><td class="om"><span class="risk"><b>Risk</b>A 3.0 from 2 reviews hurts; wait for volume.</span></td></tr>
-      <tr><td class="on">14</td><td class="ot"><b>Promises by the price</b>First-time buyers</td><td class="oe">"Lifetime exchange in 200+ stores", returns and warranty sit four screens below the price on a phone.</td><td class="oc">One strip beside the price; the HUID line from section 6 joins it.</td><td class="om"><span class="risk"><b>Risk</b>Too many claims read as noise; keep one strip.</span></td></tr>
-      <tr><td class="on">15</td><td class="ot"><b>Homepage that routes</b>Brand searchers, coin buyers</td><td class="oe">Search is the first next step; 37% view a product; the hero promotes Lightscapes, which had 0 website sales from 221,522 visits to its pages; median load 7.15 against 3.88 for the bag on Mia's own page timer.<a class="ref" href="https://claude.ai/artifact/KgvtUJWLeaXUtJN4DR4LsP#r33" target="_blank" rel="noopener">R33</a><a class="ref" href="https://claude.ai/artifact/KgvtUJWLeaXUtJN4DR4LsP#r34" target="_blank" rel="noopener">R34</a></td><td class="oc">Open search bar with category chips; today's gold rate with coins; login pop-up only after a product view; a lighter hero.</td><td class="om"><span class="risk"><b>Risk</b>The brand team may need the campaign on the homepage; keep it as a second slide.</span></td></tr>
+      <tr><td class="on">1</td><td class="ot"><b>Reviews with photos and videos</b>All shoppers deciding on a piece</td><td class="oe">Hero product pages carried 0 to 2 reviews on 16 October, and the new page's reviews are text only. On phones only 6.0% of diamond pieces added to bag reach checkout.<a class="ref" href="https://claude.ai/artifact/KgvtUJWLeaXUtJN4DR4LsP#r17" target="_blank" rel="noopener">R17</a></td><td class="oc">Ask buyers for a photo or short video after delivery; show photo reviews first; use store photos of the piece where buyer photos are thin.</td><td class="om"><span class="risk"><b>Needs</b>WhatsApp consent checked under India's data protection law before any request.</span></td></tr>
+      <tr><td class="on">2</td><td class="ot"><b>Product videos</b>Diamond and gold shoppers</td><td class="oe">Sparkle, scale and how a piece sits are hard to judge from photos; the new page has no product video.</td><td class="oc">Short videos made and pushed by Troopod, shown second in the gallery.</td><td class="om"><span class="risk"><b>Risk</b>Heavy video can slow the page; load it only when tapped or in view.</span></td></tr>
+      <tr><td class="on">3</td><td class="ot"><b>A+ content</b>First-time buyers</td><td class="oe">A product-specific visual section is performing well on FableRoom's product pages; Mia's new page has none.</td><td class="oc">A visual block per product: the design story, how it is worn, close-ups and size on hand.</td><td class="om"><span class="risk"><b>Risk</b>Made per product, so start with the top-selling pieces.</span></td></tr>
+      <tr><td class="on">4</td><td class="ot"><b>HUID and certificate by the price</b>Diamond shoppers</td><td class="oe">No competitor we checked shows a per-piece HUID or a certificate on the product page.<a class="ref" href="https://claude.ai/artifact/KgvtUJWLeaXUtJN4DR4LsP#r31" target="_blank" rel="noopener">R31</a></td><td class="oc">The piece's HUID, the lab and the certificate number beside the price, with a "View certificate" sheet.</td><td class="om"><span class="risk"><b>Needs</b>Mia to confirm HUID and certificates are held per piece.</span></td></tr>
+      <tr><td class="on">5</td><td class="ot"><b>Stock at nearby stores, reserve to try</b>Shoppers who want to see it first</td><td class="oe">5,642 shoppers asked a store to call them in four weeks; CaratLane shows stock by store after the pincode.<a class="ref" href="https://claude.ai/artifact/KgvtUJWLeaXUtJN4DR4LsP#r15" target="_blank" rel="noopener">R15</a><a class="ref" href="https://claude.ai/artifact/KgvtUJWLeaXUtJN4DR4LsP#r31" target="_blank" rel="noopener">R31</a></td><td class="oc">"In stock at JP Nagar, 2.1 km"; hold the piece with a mobile number and OTP.</td><td class="om"><span class="risk"><b>Needs</b>A store stock feed; agree that store sales started online count for the website.</span></td></tr>
     </tbody></table></div>
-  <div class="tldr"><p>The bag is the biggest leak on the site. In the build order it comes straight after the product page and the collection and gifting pages (section 2), and the guest checkout is its first test.</p></div>
+  <div class="tldr"><p>The bag is the biggest leak on the site, so it leads this quarter, with the guest checkout as its first test. The product page experiments run alongside on the new page.</p></div>
 </section>
 
 <section class="s" id="s6">
@@ -642,7 +668,7 @@ a.ref:hover{background:rgba(139,107,247,.3)}
 
 <section class="s" id="s7">
   <div class="sec-head"><div class="sec-num">07</div><div>
-    <h2>Edge 1: from gold rate to gold coin</h2>
+    <h2><span class="later">After this quarter</span>Edge 1: from gold rate to gold coin</h2>
     <p>Gold-rate visitors want gold at today's price. Mia sells exactly that, a 24 kt, 9999-purity coin, and the rate page does not offer it.</p>
   </div></div>
   <h4 class="grp">The shopper, in numbers</h4>
@@ -702,7 +728,7 @@ a.ref:hover{background:rgba(139,107,247,.3)}
 
 <section class="s" id="s8">
   <div class="sec-head"><div class="sec-num">08</div><div>
-    <h2>Edge 2: see the diamond at a store near you</h2>
+    <h2><span class="later">After this quarter</span>Edge 2: see the diamond at a store near you</h2>
     <p>Mia's diamond shoppers already ask to see pieces in person, in large numbers, through a call-back form. Turn that into the easiest way in the category to see a piece in a store.</p>
   </div></div>
   <h4 class="grp">The shopper, in numbers</h4>
@@ -762,7 +788,7 @@ a.ref:hover{background:rgba(139,107,247,.3)}
 
 <section class="s" id="s9">
   <div class="sec-head"><div class="sec-num">09</div><div>
-    <h2>Edge 3: the purchase plan, online</h2>
+    <h2><span class="later">After this quarter</span>Edge 3: the purchase plan, online</h2>
     <p>Mia's Jewellery Purchase Plan is a strong offer that the website cannot sell. 94% of website buyers are first-time buyers; a plan is the most natural way to bring them back for 10 months.</p>
   </div></div>
   <h4 class="grp">What Mia's plan is today (jewellery-purchase-plan page, captured 17 Oct)</h4>
@@ -807,6 +833,8 @@ a.ref:hover{background:rgba(139,107,247,.3)}
   </div>
   <div class="src">The ₹9,655 example is the Starlit Cascade earrings (₹86,898) divided by 9; plan terms decide the real figure.</div>
 </section>
+
+<div class="applink"><a href="https://claude.ai/artifact/KgvtUJWLeaXUtJN4DR4LsP" target="_blank" rel="noopener"><span>References</span><b>Where every figure comes from</b><em>Each R-marker in this plan, with the Google Analytics steps, date range, page links and screenshots to check it &rarr;</em></a></div>
 
 </div>
 
